@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Book Webflow Website</title>
+  </head>
+  <body>
+    <!-- part 1 below -->
+
+    <div class="bg-blue-900">
+      <nav class="pt-10 max-w-7xl m-auto pb-28">
+        <!-- navbar left below -->
+        <div class="flex justify-between">
+          <!-- ^opening nav -->
+          <div class="flex items-center">
+            <!-- ^opening nav left -->
+            <svg
+              width="26"
+              height="29"
+              viewBox="0 0 26 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.31348 22.9H25.25V0.5H4.2557C2.32228 0.506417 0.756356 2.08725 0.75 4.03908V24.6646H0.750578C0.750578 24.6733 0.75 24.6821 0.75 24.6908C0.75 26.7558 2.35521 28.5 4.2557 28.5H25.25V26.6333H4.2557C3.38895 26.6333 2.59906 25.7076 2.59906 24.6908C2.59906 23.7202 3.38433 22.9 4.31348 22.9ZM6.29717 2.38592H11.8443V12.4671L9.04764 9.9885L6.29717 12.4525V2.38592ZM2.59906 4.05367C2.59617 3.12617 3.33695 2.37192 4.2557 2.36667H4.44811H6.29717H4.44811V14.9667H6.27637L9.05458 12.4782L11.8617 14.9667H13.6934V2.36667H23.4009V21.0333H6.30179H4.45274H4.31348C3.71196 21.0333 3.12141 21.192 2.59963 21.493V4.05367H2.59906Z"
+                fill="#FFCA42"
+              />
+            </svg>
+            <h1 class="text-white text-3xl font-bold font-sans pl-2">Pages</h1>
+            <div class="flex space-x-3 ml-8">
+              <!-- ^opening icons -->
+              <svg
+                width="45"
+                height="46"
+                viewBox="0 0 45 46"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect y="0.5" width="45" height="45" fill="white" />
+                <path
+                  d="M25.7188 24.5L26.1562 21.625H23.375V19.75C23.375 18.9375 23.75 18.1875 25 18.1875H26.2812V15.7188C26.2812 15.7188 25.125 15.5 24.0312 15.5C21.75 15.5 20.25 16.9062 20.25 19.4062V21.625H17.6875V24.5H20.25V31.5H23.375V24.5H25.7188Z"
+                  fill="#1B3764"
+                />
+              </svg>
+              <svg
+                width="45"
+                height="46"
+                viewBox="0 0 45 46"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect y="0.5" width="45" height="45" fill="white" />
+                <path
+                  d="M28.3438 20.25C28.3646 20.3333 28.375 20.4688 28.375 20.6562C28.375 21.7604 28.1667 22.8646 27.75 23.9688C27.3333 25.0521 26.7396 26.0521 25.9688 26.9688C25.2188 27.8646 24.2396 28.5938 23.0312 29.1562C21.8229 29.7188 20.4896 30 19.0312 30C17.1979 30 15.5208 29.5104 14 28.5312C14.2292 28.5521 14.4896 28.5625 14.7812 28.5625C16.3021 28.5625 17.6667 28.0938 18.875 27.1562C18.1458 27.1562 17.5 26.9479 16.9375 26.5312C16.3958 26.0938 16.0208 25.5521 15.8125 24.9062C16.0208 24.9271 16.2188 24.9375 16.4062 24.9375C16.6979 24.9375 16.9896 24.9062 17.2812 24.8438C16.5312 24.6771 15.9062 24.2917 15.4062 23.6875C14.9062 23.0833 14.6562 22.3958 14.6562 21.625V21.5625C15.1146 21.8333 15.6042 21.9792 16.125 22C15.1458 21.3333 14.6562 20.4167 14.6562 19.25C14.6562 18.6667 14.8125 18.1146 15.125 17.5938C15.9375 18.6146 16.9271 19.4271 18.0938 20.0312C19.2812 20.6354 20.5417 20.9688 21.875 21.0312C21.8333 20.7812 21.8125 20.5312 21.8125 20.2812C21.8125 19.3854 22.125 18.6146 22.75 17.9688C23.3958 17.3229 24.1667 17 25.0625 17C26.0208 17 26.8229 17.3438 27.4688 18.0312C28.2188 17.8854 28.9167 17.625 29.5625 17.25C29.3125 18.0208 28.8333 18.625 28.125 19.0625C28.75 18.9792 29.375 18.8021 30 18.5312C29.5417 19.1979 28.9896 19.7708 28.3438 20.25Z"
+                  fill="#1B3764"
+                />
+              </svg>
+              <svg
+                width="45"
+                height="46"
+                viewBox="0 0 45 46"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect y="0.5" width="45" height="45" fill="white" />
+                <path
+                  d="M18.125 28.5H15.2188V19.1562H18.125V28.5ZM17.875 17.375C17.5417 17.7083 17.1458 17.875 16.6875 17.875C16.2292 17.875 15.8333 17.7083 15.5 17.375C15.1667 17.0417 15 16.6458 15 16.1875C15 15.7292 15.1667 15.3333 15.5 15C15.8333 14.6667 16.2292 14.5 16.6875 14.5C17.1458 14.5 17.5417 14.6667 17.875 15C18.2083 15.3333 18.375 15.7292 18.375 16.1875C18.375 16.6458 18.2083 17.0417 17.875 17.375ZM29 28.5H26.0938V23.9375C26.0938 23.5833 26.0833 23.3021 26.0625 23.0938C26.0417 22.8646 25.9896 22.6146 25.9062 22.3438C25.8229 22.0521 25.6667 21.8333 25.4375 21.6875C25.2292 21.5417 24.9479 21.4688 24.5938 21.4688C23.9062 21.4688 23.4375 21.6875 23.1875 22.125C22.9583 22.5625 22.8438 23.1458 22.8438 23.875V28.5H19.9375V19.1562H22.75V20.4375H22.7812C22.9896 20.0208 23.3333 19.6667 23.8125 19.375C24.2917 19.0625 24.8646 18.9062 25.5312 18.9062C26.2396 18.9062 26.8229 19.0208 27.2812 19.25C27.7604 19.4583 28.1146 19.7812 28.3438 20.2188C28.5938 20.6354 28.7604 21.0938 28.8438 21.5938C28.9479 22.0938 29 22.6875 29 23.375V28.5Z"
+                  fill="#1B3764"
+                />
+              </svg>
+            </div>
+            <!-- ^closing icons -->
+          </div>
+          <!-- ^closing nav left -->
+
+          <!-- navbar right below -->
+          <div class="flex items-center">
+            <!-- ^opening nav right -->
+            <div class="flex text-white font-sans font-medium space-x-14">
+              <!-- ^opening menu -->
+              <p>Home</p>
+              <p class="flex space-x-1 items-center">
+                Pages
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4 6L8 10L12 6"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </p>
+              <p>About</p>
+              <p>Services</p>
+              <p>Contact</p>
+            </div>
+            <!-- ^closing menu-->
+            <div class="flex pl-8 space-x-7">
+              <!-- ^opening buttons -->
+              <svg
+                width="38"
+                height="33"
+                viewBox="0 0 38 33"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 10.75H5L7.68 24.14C7.77144 24.6004 8.02191 25.014 8.38755 25.3083C8.75318 25.6026 9.2107 25.759 9.68 25.75H19.4C19.8693 25.759 20.3268 25.6026 20.6925 25.3083C21.0581 25.014 21.3086 24.6004 21.4 24.14L23 15.75H6M10 30.75C10 31.3023 9.55228 31.75 9 31.75C8.44772 31.75 8 31.3023 8 30.75C8 30.1977 8.44772 29.75 9 29.75C9.55228 29.75 10 30.1977 10 30.75ZM21 30.75C21 31.3023 20.5523 31.75 20 31.75C19.4477 31.75 19 31.3023 19 30.75C19 30.1977 19.4477 29.75 20 29.75C20.5523 29.75 21 30.1977 21 30.75Z"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <circle cx="27.5" cy="10.75" r="10.5" fill="#FFCA42" />
+                <path
+                  d="M25.544 14.4276C27.4474 14.4311 28.6158 13.0249 28.6193 10.6243C28.6229 8.23793 27.4474 6.87784 25.544 6.87784C23.6406 6.87784 22.4759 8.23438 22.4723 10.6243C22.4652 13.0178 23.6406 14.4276 25.544 14.4276ZM25.544 12.9893C24.7876 12.9893 24.2727 12.2294 24.2798 10.6243C24.2834 9.05114 24.7912 8.3054 25.544 8.3054C26.3004 8.3054 26.8082 9.05114 26.8118 10.6243C26.8153 12.2294 26.304 12.9893 25.544 12.9893ZM32.889 6.97727H31.259L29.4657 8.09233V9.61222L31.0921 8.6179H31.1347V14.25H32.889V6.97727Z"
+                  fill="#1B3764"
+                />
+              </svg>
+              <input
+                class="bg-yellow-400 font-serif font-bold py-3 px-8"
+                type="button"
+                value="Order today"
+              />
+            </div>
+            <!-- ^closing buttons -->
+          </div>
+          <!-- ^closing nav right -->
+        </div>
+        <!-- closing nav -->
+        <div class="flex justify-between items-center mt-24">
+          <!-- ^opening container -->
+
+          <div>
+            <!-- ^opening container left -->
+
+            <div class="flex items-center">
+              <div
+                class="w-9 h-0 border-[1px] border-solid border-yellow-400"
+              ></div>
+              <h3 class="text-white pl-4 font-serif font-extralight italic">
+                Welcome to Pages
+              </h3>
+            </div>
+
+            <h1 class="text-white text-7xl font-serif font-thin mt-4">
+              Books are uniquely portable magic
+            </h1>
+
+            <p class="text-xl text-gray-400 mt-8">
+              There are many variations of passages of Lorem Ipsum available,
+              <br />
+              but the majority have suffered alteration in some form.
+            </p>
+
+            <div class="flex space-x-10 items-center mt-12">
+              <input
+                class="bg-yellow-400 font-serif font-bold py-5 px-14"
+                type="button"
+                value="Order today"
+              />
+              <p class="font-serif text-white underline leading-6">
+                Read Free Demo
+              </p>
+            </div>
+
+            <div class="flex space-x-20 mt-12">
+              <div class="flex">
+                <div class="bg-yellow-400 w-4 h-4 rounded-full mt-2 mr-4"></div>
+                <div class="flex flex-col items-start">
+                  <h6 class="text-white text-2xl font-serif">Pages:</h6>
+                  <p class="text-gray-400 text-lg">586 pages</p>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="bg-yellow-400 w-4 h-4 rounded-full mt-2 mr-4"></div>
+                <div class="flex flex-col items-start">
+                  <h6 class="text-white text-2xl font-serif">Length:</h6>
+                  <p class="text-gray-400 text-lg">10 Hours</p>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="bg-yellow-400 w-4 h-4 rounded-full mt-2 mr-4"></div>
+                <div class="flex flex-col items-start">
+                  <h6 class="text-white text-2xl font-serif">Ratings:</h6>
+                  <p class="text-gray-400 text-lg">4.5/5 (305 ratings)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ^closing container left -->
+
+          <div>
+            <!-- ^opening container right -->
+            <img src="./img/Book.png" alt="" />
+          </div>
+          <!-- ^closing container right -->
+        </div>
+        <!-- ^closing container -->
+      </nav>
+      <!-- ^closing nav -->
+    </div>
+    <!-- ^closing part 1 -->
+
+    <!-- part 2 below -->
+    <div class="bg-neutral-100">
+      <!-- ^part 2 opening -->
+
+      <div class="py-36 max-w-7xl m-auto">
+        <!-- ^container opening -->
+
+        <h1 class="font-serif text-blue-900 text-5xl text-center mb-6">
+          Author's Book Includes
+        </h1>
+        <div class="w-14 h-0 border-2 border-yellow-400 m-auto"></div>
+
+        <div>
+          <!-- ^container 2 opening -->
+
+          <div class="flex space-x-16 mt-14">
+            <div class="flex">
+              <!-- ^container left opening -->
+              <img src="./img/Book (1).png" alt="" />
+              <div class="mt-14">
+                <h2 class="font-serif text-blue-900 text-3xl">Atomic One's</h2>
+                <p class="tracking-wide text-gray-400 text-lg mt-4">
+                  Many variations of passages <br />
+                  of Lorem Ipsum willing arise <br />
+                  alteration in some form.
+                </p>
+                <div class="flex space-x-12 mt-8">
+                  <div class="flex">
+                    <div
+                      class="bg-yellow-400 w-4 h-4 rounded-full mt-2 mr-4"
+                    ></div>
+                    <div class="flex flex-col items-start">
+                      <h6 class="text-blue-900 text-2xl font-serif">Pages:</h6>
+                      <p class="text-gray-400 text-lg">586 pages</p>
+                    </div>
+                  </div>
+                  <div class="flex">
+                    <div
+                      class="bg-yellow-400 w-4 h-4 rounded-full mt-2 mr-4"
+                    ></div>
+                    <div class="flex flex-col items-start">
+                      <h6 class="text-blue-900 text-2xl font-serif">Length:</h6>
+                      <p class="text-gray-400 text-lg">10 Hours</p>
+                    </div>
+                  </div>
+                </div>
+                <input
+                  class="mt-8 border-yellow-400 border-solid border-[1px] font-serif font-light py-3 px-8"
+                  type="button"
+                  value="Order today"
+                />
+              </div>
+            </div>
+            <!-- ^container left closing -->
+
+            <div class="flex">
+              <!-- ^container right opening -->
+              <img src="./img/Book (1).png" alt="" />
+              <div class="mt-14">
+                <h2 class="font-serif text-blue-900 text-3xl">Atomic One's</h2>
+                <p class="tracking-wide text-gray-400 text-lg mt-4">
+                  Many variations of passages <br />
+                  of Lorem Ipsum willing arise <br />
+                  alteration in some form.
+                </p>
+                <div class="flex space-x-12 mt-8">
+                  <div class="flex">
+                    <div
+                      class="bg-yellow-400 w-4 h-4 rounded-full mt-2 mr-4"
+                    ></div>
+                    <div class="flex flex-col items-start">
+                      <h6 class="text-blue-900 text-2xl font-serif">Pages:</h6>
+                      <p class="text-gray-400 text-lg">586 pages</p>
+                    </div>
+                  </div>
+                  <div class="flex">
+                    <div
+                      class="bg-yellow-400 w-4 h-4 rounded-full mt-2 mr-4"
+                    ></div>
+                    <div class="flex flex-col items-start">
+                      <h6 class="text-blue-900 text-2xl font-serif">Length:</h6>
+                      <p class="text-gray-400 text-lg">10 Hours</p>
+                    </div>
+                  </div>
+                </div>
+                <input
+                  class="mt-8 border-yellow-400 border-solid border-[1px] font-serif font-light py-3 px-8"
+                  type="button"
+                  value="Order today"
+                />
+              </div>
+            </div>
+            <!-- ^container right closing -->
+          </div>
+        </div>
+        <!-- ^container 2 closing -->
+      </div>
+      <!-- ^container closing -->
+    </div>
+    <!-- ^part 2 closing -->
+    <div class="bg-sky-50">
+      <!-- ^part 3 opening -->
+      <div class="max-w-7xl py-36 m-auto flex space-x-36">
+        <!-- ^container opening -->
+        <div>
+          <img
+            class="w-[590px] max-w-none h-[690px]"
+            src="./img/Image.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <!-- ^container right opening -->
+
+          <h1 class="text-5xl font-serif text-blue-900 mb-6">About Author</h1>
+
+          <div class="w-14 border-2 border-yellow-400 mb-6"></div>
+
+          <p class="text-lg text-gray-400 mb-12">
+            All the Lorem Ipsum generators on the Internet tend to repeated
+            predefined chunks as necessary, making this the first true value
+            generator on the Internet. It uses a dictionary of over 200 Latin
+            words, combined with a handful.
+          </p>
+
+          <div class="flex space-x-8 mb-10">
+            <div>
+              <h1 class="font-serif text-blue-900 text-6xl mb-3">02</h1>
+              <p class="text-lg text-gray-400">Books Published</p>
+            </div>
+            <div class="h-24 w-0 border-yellow-400 border-[1px]"></div>
+            <div>
+              <h1 class="font-serif text-blue-900 text-6xl mb-3">4.5</h1>
+              <p class="text-lg text-gray-400">User reviews</p>
+            </div>
+            <div class="h-24 w-0 border-yellow-400 border-[1px]"></div>
+            <div>
+              <div>
+                <h1 class="font-serif text-blue-900 text-6xl mb-3">04</h1>
+                <p class="text-lg text-gray-400">Best Seller Awards</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-blue-900">
+            <div class="flex px-5 py-4 space-x-9">
+              <img src="./img/Image (1).png" alt="" />
+              <div>
+                <h6 class="font-serif text-yellow-400 text-2xl mb-2">
+                  John Abraham , Ph.d
+                </h6>
+                <p class="text-lg text-gray-400 leading-9">
+                  Mail : johnabraham@gmail.com<br />
+                  Phone : (+2) 123 545 9000
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ^container right closing -->
+      </div>
+      <!-- ^container  closing -->
+    </div>
+    <!-- ^part 3 closing -->
+
+    <div class="bg-neutral-100">
+      <!-- ^part 4 opening -->
+      <div class="max-w-7xl py-36 m-auto">
+        <!-- ^container opening -->
+
+        <h1 class="font-serif text-blue-900 text-5xl text-center mb-6">
+          Trusted by the Best
+        </h1>
+
+        <div class="w-14 h-0 border-2 border-yellow-400 m-auto mb-10"></div>
+
+        <div class="flex justify-center space-x-24">
+          <div class="flex flex-col items-center">
+            <img class="mb-7 w-24 h-24" src="./img/Logo.png" alt="" />
+            <h5 class="font-serif text-blue-900 text-2xl mb-3">Amazen Corp</h5>
+            <p class="text-lg text-gray-400 text-center">
+              A long established fact that a<br />who looking at its layout.
+            </p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img class="mb-11 w- h-20" src="./img/Logo (1).png" alt="" />
+            <h5 class="font-serif text-blue-900 text-2xl mb-3">Megan Books</h5>
+            <p class="text-lg text-gray-400 text-center">
+              A long established fact that a<br />who looking at its layout.
+            </p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img class="mb-11 w-36 h-20" src="./img/Logo (2).png" alt="" />
+            <h5 class="font-serif text-blue-900 text-2xl mb-3">Los Books</h5>
+            <p class="text-lg text-gray-400 text-center">
+              A long established fact that a<br />who looking at its layout.
+            </p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img class="mb-7 w-24 h-24" src="./img/Logo (3).png" alt="" />
+            <h5 class="font-serif text-blue-900 text-2xl mb-3">Urban Lib</h5>
+            <p class="text-lg text-gray-400 text-center">
+              A long established fact that a<br />who looking at its layout.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- ^container closing -->
+    </div>
+    <!-- ^part 4 closing -->
+
+    <div class="bg-blue-900">
+      <!-- ^part 5 opening -->
+      <div class="flex items-center max-w-7xl py-9 space-x-32 m-auto">
+        <!-- ^container opening -->
+
+        <div>
+          <h1 class="font-serif text-white text-5xl mb-6">
+            Get Book Copy Today!
+          </h1>
+          <div class="w-14 h-0 border-2 border-yellow-400 mb-7"></div>
+          <p class="text-lg text-gray-400 tracking-wide">
+            This the first true value generator on the Internet. It uses alphas
+            dictionary of over 200 Latin words.
+          </p>
+          <input
+            class="text-white mt-8 border-yellow-400 border-solid border-[1px] font-serif font-light py-5 px-14"
+            type="button"
+            value="Order today"
+          />
+        </div>
+
+        <div>
+          <img
+            class="w-[640px] h-[427px] max-w-none"
+            src="./img/Photo.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- ^part 5 closing -->
+
+    <div class="bg-neutral-100">
+      <!-- ^part 6 opening -->
+      <div class="max-w-7xl m-auto flex flex-col py-36">
+        <!-- container opening -->
+        <div>
+          <h1 class="text-5xl font-serif text-blue-900 mb-6 text-center">
+            What will you learn?
+          </h1>
+
+          <div class="w-14 border-2 border-yellow-400 mb-12 m-auto"></div>
+        </div>
+        <div class="flex items-center space-x-24">
+          <!-- ^container2 opening -->
+          <div class="grid grid-cols-2 grid-rows-2 gap-8">
+            <!-- ^container left -->
+            <div class="bg-sky-50 w-72 h-72">
+              <div class="px-8 py-10">
+                <div
+                  class="text-blue-900 rounded-full bg-yellow-400 w-12 h-12 font-serif text-2xl mb-8 flex items-center justify-center"
+                >
+                  01
+                </div>
+                <h4 class="text-blue-900 font-serif text-2xl">
+                  Use HDFS & Map Reduce for storing & analyzing data at scale.
+                </h4>
+              </div>
+            </div>
+            <div class="bg-sky-50 w-72 h-72">
+              <div class="px-8 py-10">
+                <div
+                  class="text-blue-900 rounded-full bg-yellow-400 w-12 h-12 font-serif text-2xl mb-8 flex items-center justify-center"
+                >
+                  02
+                </div>
+                <h4 class="text-blue-900 font-serif text-2xl">
+                  Consume streaming data using Spark Streaming, Flink, and
+                  Storm.
+                </h4>
+              </div>
+            </div>
+            <div class="bg-sky-50 w-72 h-72">
+              <div class="px-8 py-10">
+                <div
+                  class="text-blue-900 rounded-full bg-yellow-400 w-12 h-12 font-serif text-2xl mb-8 flex items-center justify-center"
+                >
+                  03
+                </div>
+                <h4 class="text-blue-900 font-serif text-2xl">
+                  Choose an appropriate data storage technology for your
+                  application
+                </h4>
+              </div>
+            </div>
+            <div class="bg-sky-50 w-72 h-72">
+              <div class="px-8 py-10">
+                <div
+                  class="text-blue-900 rounded-full bg-yellow-400 w-12 h-12 font-serif text-2xl mb-8 flex items-center justify-center"
+                >
+                  04
+                </div>
+                <h4 class="text-blue-900 font-serif text-2xl">
+                  Analyze non-relational data using HBase, Cassandra, and
+                  MongoDB.
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img
+              class="w-[590px] h-[690px] max-w-none"
+              src="./img/Image (2).png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-sky-50">
+      <!-- ^part 7 -->
+      <div class="max-w-7xl py-36 m-auto">
+        <!-- ^container -->
+        <h1 class="text-5xl font-serif text-blue-900 mb-6 text-center">
+          The Chapter Includes
+        </h1>
+
+        <div class="w-14 border-2 border-yellow-400 mb-12 m-auto"></div>
+        <div class="grid grid-cols-2 grid-rows-2 gap-10 mb-20">
+          <div class="bg-white shadow-2xl shadow-slate-300">
+            <div class="px-14 py-12">
+              <h6 class="text-2xl font-serif font-thin text-blue-900 mb-5">
+                Chapter- 01 Getting started Intro
+              </h6>
+              <p class="text-gray-400 text-lg mb-8">
+                Making this the first true value generator on the Internet. It
+                of over 200 Latin words, combined with a handful.
+              </p>
+              <div class="flex space-x-8">
+                <div class="flex items-center">
+                  <div class="bg-yellow-400 w-4 h-4 rounded-full mr-4"></div>
+                  <div class="flex items-start">
+                    <h6 class="text-blue-900 text-xl font-serif">Pages :</h6>
+                    <p class="text-gray-400 text-lg">85 pages</p>
+                  </div>
+                </div>
+                <div class="flex items-center">
+                  <div class="bg-yellow-400 w-4 h-4 rounded-full mr-4"></div>
+                  <div class="flex items-start">
+                    <h6 class="text-blue-900 text-xl font-serif">Length:</h6>
+                    <p class="text-gray-400 text-lg">1 Hour 15 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white shadow-2xl shadow-slate-300">
+            <div class="px-14 py-12">
+              <h6 class="text-2xl font-serif font-thin text-blue-900 mb-5">
+                Chapter- 01 Getting started Intro
+              </h6>
+              <p class="text-gray-400 text-lg mb-8">
+                Making this the first true value generator on the Internet. It
+                of over 200 Latin words, combined with a handful.
+              </p>
+              <div class="flex space-x-8">
+                <div class="flex items-center">
+                  <div class="bg-yellow-400 w-4 h-4 rounded-full mr-4"></div>
+                  <div class="flex items-start">
+                    <h6 class="text-blue-900 text-xl font-serif">Pages :</h6>
+                    <p class="text-gray-400 text-lg">85 pages</p>
+                  </div>
+                </div>
+                <div class="flex items-center">
+                  <div class="bg-yellow-400 w-4 h-4 rounded-full mr-4"></div>
+                  <div class="flex items-start">
+                    <h6 class="text-blue-900 text-xl font-serif">Length:</h6>
+                    <p class="text-gray-400 text-lg">1 Hour 15 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white shadow-2xl shadow-slate-300">
+            <div class="px-14 py-12">
+              <h6 class="text-2xl font-serif font-thin text-blue-900 mb-5">
+                Chapter- 01 Getting started Intro
+              </h6>
+              <p class="text-gray-400 text-lg mb-8">
+                Making this the first true value generator on the Internet. It
+                of over 200 Latin words, combined with a handful.
+              </p>
+              <div class="flex space-x-8">
+                <div class="flex items-center">
+                  <div class="bg-yellow-400 w-4 h-4 rounded-full mr-4"></div>
+                  <div class="flex items-start">
+                    <h6 class="text-blue-900 text-xl font-serif">Pages :</h6>
+                    <p class="text-gray-400 text-lg">85 pages</p>
+                  </div>
+                </div>
+                <div class="flex items-center">
+                  <div class="bg-yellow-400 w-4 h-4 rounded-full mr-4"></div>
+                  <div class="flex items-start">
+                    <h6 class="text-blue-900 text-xl font-serif">Length:</h6>
+                    <p class="text-gray-400 text-lg">1 Hour 15 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white shadow-2xl shadow-slate-300">
+            <div class="px-14 py-12">
+              <h6 class="text-2xl font-serif font-thin text-blue-900 mb-5">
+                Chapter- 01 Getting started Intro
+              </h6>
+              <p class="text-gray-400 text-lg mb-8">
+                Making this the first true value generator on the Internet. It
+                of over 200 Latin words, combined with a handful.
+              </p>
+              <div class="flex space-x-8">
+                <div class="flex items-center">
+                  <div class="bg-yellow-400 w-4 h-4 rounded-full mr-4"></div>
+                  <div class="flex items-start">
+                    <h6 class="text-blue-900 text-xl font-serif">Pages :</h6>
+                    <p class="text-gray-400 text-lg">85 pages</p>
+                  </div>
+                </div>
+                <div class="flex items-center">
+                  <div class="bg-yellow-400 w-4 h-4 rounded-full mr-4"></div>
+                  <div class="flex items-start">
+                    <h6 class="text-blue-900 text-xl font-serif">Length:</h6>
+                    <p class="text-gray-400 text-lg">1 Hour 15 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <input
+            class="mb-8 text-lg text-blue-900 font-medium font-serif text-center bg-yellow-400 px-24 py-5"
+            type="button"
+            value="Start a 15-Days Free Trial"
+          />
+          <p class="text-gray-400 text-lg leading-8">
+            Short description about each chapter <br />
+            <span class="text-blue-900 underline">Have any questions?</span>
+            Contact us
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-neutral-100">
+      <!-- ^part 8 -->
+      <div class="max-w-7xl m-auto py-36">
+        <!-- ^container -->
+        <div class="flex items-center space-x-24">
+          <div class="max-w-[418px]">
+            <h1 class="text-blue-900 font-serif text-5xl mb-7">
+              What Readers Say About the Book
+            </h1>
+            <div class="w-14 border-2 border-yellow-400 mb-7"></div>
+            <p class="mb-9 text-lg text-gray-400 leading-8 tracking-wide">
+              If you are going to use a passage of Lorem Ipsum, you need to be
+              sure there isn't anything embarrassing hidden in the middle of
+              text. All the Lorem Ipsum generators.
+            </p>
+            <div class="flex space-x-3 mb-3 items-center">
+              <svg
+                width="120"
+                height="21"
+                viewBox="0 0 120 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="110" cy="10.5" r="9.5" stroke="#FFCA42" />
+                <path
+                  d="M110 20.5C108.687 20.5 107.386 20.2413 106.173 19.7388C104.96 19.2362 103.858 18.4997 102.929 17.5711C102 16.6425 101.264 15.5401 100.761 14.3268C100.259 13.1136 100 11.8132 100 10.5C100 9.18678 100.259 7.88642 100.761 6.67316C101.264 5.45991 102 4.35752 102.929 3.42893C103.858 2.50035 104.96 1.76375 106.173 1.2612C107.386 0.758657 108.687 0.499999 110 0.5L110 10.5L110 20.5Z"
+                  fill="#FFCA42"
+                />
+                <circle cx="85" cy="10.5" r="10" fill="#FFCA42" />
+                <circle cx="60" cy="10.5" r="10" fill="#FFCA42" />
+                <circle cx="35" cy="10.5" r="10" fill="#FFCA42" />
+                <circle cx="10" cy="10.5" r="10" fill="#FFCA42" />
+              </svg>
+              <p class="font-serif text-xl text-blue-900">(4.8/5)</p>
+            </div>
+            <p class="text-lg text-blue-900">Overall Customer Ratings</p>
+          </div>
+          <div class="flex items-center space-x-8">
+            <!-- ^review open-->
+            <div>
+              <!-- ^review left open -->
+              <div class="bg-blue-950 mb-8">
+                <div class="px-8 py-9">
+                  <div class="flex items-center mb-5 space-x-5">
+                    <div><img src="./img/Image (3).png" alt="" /></div>
+                    <div>
+                      <h6 class="text-white text-2xl font-serif mb-8">
+                        Martin Philips
+                      </h6>
+                      <svg
+                        width="76"
+                        height="14"
+                        viewBox="0 0 76 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle
+                          cx="69.6663"
+                          cy="6.99996"
+                          r="5.83333"
+                          stroke="#FFCA42"
+                        />
+                        <path
+                          d="M69.6667 13.3333C68.835 13.3333 68.0114 13.1695 67.243 12.8512C66.4746 12.5329 65.7764 12.0664 65.1883 11.4783C64.6002 10.8902 64.1337 10.192 63.8154 9.42362C63.4971 8.65523 63.3333 7.83166 63.3333 6.99996C63.3333 6.16825 63.4971 5.34469 63.8154 4.5763C64.1337 3.8079 64.6002 3.10972 65.1883 2.52162C65.7764 1.93351 66.4746 1.467 67.243 1.14872C68.0114 0.830442 68.835 0.666626 69.6667 0.666626L69.6667 6.99996L69.6667 13.3333Z"
+                          fill="#FFCA42"
+                        />
+                        <circle
+                          cx="53.8333"
+                          cy="6.99996"
+                          r="6.33333"
+                          fill="#FFCA42"
+                        />
+                        <circle
+                          cx="38.0003"
+                          cy="6.99996"
+                          r="6.33333"
+                          fill="#FFCA42"
+                        />
+                        <circle
+                          cx="22.1663"
+                          cy="6.99996"
+                          r="6.33333"
+                          fill="#FFCA42"
+                        />
+                        <circle
+                          cx="6.33333"
+                          cy="6.99996"
+                          r="6.33333"
+                          fill="#FFCA42"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <h2 class="text-white text-xl font-serif mb-3">
+                    " Awesome Impact "
+                  </h2>
+                  <p class="text-lg text-gray-400 leading-8 tracking-wide">
+                    All the Lorem Ipsum generators on the Internet tend to
+                    repeat willings predefined chunks value.
+                  </p>
+                </div>
+              </div>
+              <div class="bg-blue-950">
+                <div class="px-8 py-9">
+                  <div class="flex items-center mb-5 space-x-5">
+                    <div><img src="./img/Image (4).png" alt="" /></div>
+                    <div>
+                      <h6 class="text-white text-2xl font-serif mb-8">
+                        James Anderson
+                      </h6>
+                      <svg
+                        width="76"
+                        height="14"
+                        viewBox="0 0 76 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle
+                          cx="69.6663"
+                          cy="6.99996"
+                          r="5.83333"
+                          stroke="#FFCA42"
+                        />
+                        <path
+                          d="M69.6667 13.3333C68.835 13.3333 68.0114 13.1695 67.243 12.8512C66.4746 12.5329 65.7764 12.0664 65.1883 11.4783C64.6002 10.8902 64.1337 10.192 63.8154 9.42362C63.4971 8.65523 63.3333 7.83166 63.3333 6.99996C63.3333 6.16825 63.4971 5.34469 63.8154 4.5763C64.1337 3.8079 64.6002 3.10972 65.1883 2.52162C65.7764 1.93351 66.4746 1.467 67.243 1.14872C68.0114 0.830442 68.835 0.666626 69.6667 0.666626L69.6667 6.99996L69.6667 13.3333Z"
+                          fill="#FFCA42"
+                        />
+                        <circle
+                          cx="53.8333"
+                          cy="6.99996"
+                          r="6.33333"
+                          fill="#FFCA42"
+                        />
+                        <circle
+                          cx="38.0003"
+                          cy="6.99996"
+                          r="6.33333"
+                          fill="#FFCA42"
+                        />
+                        <circle
+                          cx="22.1663"
+                          cy="6.99996"
+                          r="6.33333"
+                          fill="#FFCA42"
+                        />
+                        <circle
+                          cx="6.33333"
+                          cy="6.99996"
+                          r="6.33333"
+                          fill="#FFCA42"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <h2 class="text-white text-xl font-serif mb-3">
+                    " Mind Blowing Words "
+                  </h2>
+                  <p class="text-lg text-gray-400 leading-8 tracking-wide">
+                    All the Lorem Ipsum generators on the Internet tend to
+                    repeat willings predefined chunks value.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-blue-950">
+              <div class="px-8 py-9">
+                <div class="flex items-center mb-5 space-x-5">
+                  <div><img src="./img/Image (5).png" alt="" /></div>
+                  <div>
+                    <h6 class="text-white text-2xl font-serif mb-8">
+                      Christina Louis
+                    </h6>
+                    <svg
+                      width="76"
+                      height="14"
+                      viewBox="0 0 76 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="69.6663"
+                        cy="6.99996"
+                        r="5.83333"
+                        stroke="#FFCA42"
+                      />
+                      <path
+                        d="M69.6667 13.3333C68.835 13.3333 68.0114 13.1695 67.243 12.8512C66.4746 12.5329 65.7764 12.0664 65.1883 11.4783C64.6002 10.8902 64.1337 10.192 63.8154 9.42362C63.4971 8.65523 63.3333 7.83166 63.3333 6.99996C63.3333 6.16825 63.4971 5.34469 63.8154 4.5763C64.1337 3.8079 64.6002 3.10972 65.1883 2.52162C65.7764 1.93351 66.4746 1.467 67.243 1.14872C68.0114 0.830442 68.835 0.666626 69.6667 0.666626L69.6667 6.99996L69.6667 13.3333Z"
+                        fill="#FFCA42"
+                      />
+                      <circle
+                        cx="53.8333"
+                        cy="6.99996"
+                        r="6.33333"
+                        fill="#FFCA42"
+                      />
+                      <circle
+                        cx="38.0003"
+                        cy="6.99996"
+                        r="6.33333"
+                        fill="#FFCA42"
+                      />
+                      <circle
+                        cx="22.1663"
+                        cy="6.99996"
+                        r="6.33333"
+                        fill="#FFCA42"
+                      />
+                      <circle
+                        cx="6.33333"
+                        cy="6.99996"
+                        r="6.33333"
+                        fill="#FFCA42"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <h2 class="text-white text-xl font-serif mb-3">
+                  " Great Books Collections "
+                </h2>
+                <p class="text-lg text-gray-400 leading-8 tracking-wide">
+                  All the Lorem Ipsum generators on the Internet tend to repeat
+                  willings predefined chunks value.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-sky-50">
+      <!-- ^part 9 -->
+      <div class="max-w-7xl m-auto py-36">
+        <h1 class="text-5xl font-serif text-blue-900 mb-6 text-center">
+          Article & Resources
+        </h1>
+
+        <div class="w-14 border-2 border-yellow-400 mb-12 m-auto"></div>
+
+        <!-- ^container -->
+        <div class="flex space-x-9">
+          <div class="bg-white shadow-2xl shadow-slate-300">
+            <img src="./img/Image (6).png" alt="" />
+            <div class="px-8 py-7">
+              <h6 class="mb-4 text-2xl font-serif text-blue-900">
+                The energy efficiency offers hydrotherapy or swim
+              </h6>
+              <p class="text-lg text-gray-400 mb-7">
+                The point of using Lorem Ipsum hiter of that using making it
+                look like others readable will get end.
+              </p>
+              <div class="flex justify-between">
+                <p class="text-blue-900 font-serif text-lg leading-5 underline">
+                  Read more
+                </p>
+                <p class="font-thin text-blue-900 text-lg">
+                  Author - 23.05.2022
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white shadow-2xl shadow-slate-300">
+            <img src="./img/Image (7).png" alt="" />
+            <div class="px-8 py-7">
+              <h6 class="mb-4 text-2xl font-serif text-blue-900">
+                Release of Letraset sheets tools containing passages
+              </h6>
+              <p class="text-lg text-gray-400 mb-7">
+                The point of using Lorem Ipsum hiter of that using making it
+                look like others readable will get end.
+              </p>
+              <div class="flex justify-between">
+                <p class="text-blue-900 font-serif text-lg leading-5 underline">
+                  Read more
+                </p>
+                <p class="font-thin text-blue-900 text-lg">
+                  Author - 23.05.2022
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white shadow-2xl shadow-slate-300">
+            <img src="./img/Image (8).png" alt="" />
+            <div class="px-8 py-7">
+              <h6 class="mb-4 text-2xl font-serif text-blue-900">
+                The energy efficiency offers hydrotherapy or swim
+              </h6>
+              <p class="text-lg text-gray-400 mb-7">
+                The point of using Lorem Ipsum hiter of that using making it
+                look like others readable will get end.
+              </p>
+              <div class="flex justify-between">
+                <p class="text-blue-900 font-serif text-lg leading-5 underline">
+                  Read more
+                </p>
+                <p class="font-thin text-blue-900 text-lg">
+                  Author - 23.05.2022
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-neutral-100 py-36">
+      <!-- ^part 10 -->
+      <div class="max-w-7xl bg-yellow-400 m-auto">
+        <!-- ^container -->
+        <div class="py-32 max-w-4xl m-auto">
+          <h1 class="text-5xl font-serif text-blue-900 mb-6 text-center">
+            Read a free chapter
+          </h1>
+
+          <div class="w-14 border-2 border-blue-900 mb-5 m-auto"></div>
+
+          <p class="mb-9 text-center text-lg text-blue-900 font-serif">
+            Making this the first true value generator on the Internet. It of
+            over 200 <br />
+            Latin words, combined with a handful.
+          </p>
+          <div class="flex justify-center space-x-3">
+            <input
+              class="text-lg text-gray-400 pl-6 w-[530px] py-4"
+              type="email"
+              placeholder="Your Email id..."
+            />
+            <input
+              class="bg-blue-900 text-white text-lg font-serif py-5 px-24"
+              type="button"
+              value="Subscribe"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-blue-900">
+      <div class="max-w-7xl m-auto pt-20">
+        <!-- ^container -->
+        <div class="flex justify-between">
+          <div>
+            <div class="flex items-center mb-7">
+              <svg
+                width="26"
+                height="30"
+                viewBox="0 0 26 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.78165 23.9145H26V0.143066H3.72033C1.66854 0.149876 0.00674528 1.82749 0 3.89883V25.7871H0.000613208C0.000613208 25.7964 0 25.8057 0 25.815C0 28.0064 1.70349 29.8574 3.72033 29.8574H26V27.8764H3.72033C2.80052 27.8764 1.96226 26.894 1.96226 25.815C1.96226 24.7849 2.79561 23.9145 3.78165 23.9145ZM5.88679 2.14445H11.7736V12.8428L8.80566 10.2125L5.88679 12.8274V2.14445ZM1.96226 3.9143C1.9592 2.93002 2.74533 2.12959 3.72033 2.12402H3.92453H5.88679H3.92453V15.4954H5.86472L8.81302 12.8546L11.792 15.4954H13.7358V2.12402H24.0377V21.9335H5.8917H3.92943H3.78165C3.1433 21.9335 2.5166 22.1019 1.96288 22.4214V3.9143H1.96226Z"
+                  fill="#FFCA42"
+                />
+              </svg>
+              <h1 class="text-white text-3xl ml-3">Pages</h1>
+            </div>
+            <div class="flex space-x-3">
+              <svg
+                width="55"
+                height="55"
+                viewBox="0 0 55 55"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect x="0.5" y="0.5" width="54" height="54" stroke="#FFCA42" />
+                <path
+                  d="M31.1836 28.375L31.6758 25.1406H28.5469V23.0312C28.5469 22.1172 28.9688 21.2734 30.375 21.2734H31.8164V18.4961C31.8164 18.4961 30.5156 18.25 29.2852 18.25C26.7188 18.25 25.0312 19.832 25.0312 22.6445V25.1406H22.1484V28.375H25.0312V36.25H28.5469V28.375H31.1836Z"
+                  fill="white"
+                />
+              </svg>
+              <svg
+                width="55"
+                height="55"
+                viewBox="0 0 55 55"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect x="0.5" y="0.5" width="54" height="54" stroke="#FFCA42" />
+                <path
+                  d="M35.1367 23.5938C35.8398 23.0664 36.4727 22.4336 36.9648 21.6953C36.332 21.9766 35.5938 22.1875 34.8555 22.2578C35.6289 21.8008 36.1914 21.0977 36.4727 20.2188C35.7695 20.6406 34.9609 20.957 34.1523 21.1328C33.4492 20.3945 32.5 19.9727 31.4453 19.9727C29.4062 19.9727 27.7539 21.625 27.7539 23.6641C27.7539 23.9453 27.7891 24.2266 27.8594 24.5078C24.8008 24.332 22.0586 22.8555 20.2305 20.6406C19.9141 21.168 19.7383 21.8008 19.7383 22.5039C19.7383 23.7695 20.3711 24.8945 21.3906 25.5625C20.793 25.5273 20.1953 25.3867 19.7031 25.1055V25.1406C19.7031 26.9336 20.9688 28.4102 22.6562 28.7617C22.375 28.832 22.0234 28.9023 21.707 28.9023C21.4609 28.9023 21.25 28.8672 21.0039 28.832C21.4609 30.3086 22.832 31.3633 24.4492 31.3984C23.1836 32.3828 21.6016 32.9805 19.8789 32.9805C19.5625 32.9805 19.2812 32.9453 19 32.9102C20.6172 33.9648 22.5508 34.5625 24.6602 34.5625C31.4453 34.5625 35.1367 28.9727 35.1367 24.0859C35.1367 23.9102 35.1367 23.7695 35.1367 23.5938Z"
+                  fill="white"
+                />
+              </svg>
+              <svg
+                width="55"
+                height="55"
+                viewBox="0 0 55 55"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect x="0.5" y="0.5" width="54" height="54" stroke="#FFCA42" />
+                <path
+                  d="M22.6406 33V22.4883H19.3711V33H22.6406ZM20.9883 21.082C22.043 21.082 22.8867 20.2031 22.8867 19.1484C22.8867 18.1289 22.043 17.2852 20.9883 17.2852C19.9688 17.2852 19.125 18.1289 19.125 19.1484C19.125 20.2031 19.9688 21.082 20.9883 21.082ZM34.8398 33H34.875V27.2344C34.875 24.4219 34.2422 22.2422 30.9375 22.2422C29.3555 22.2422 28.3008 23.1211 27.8438 23.9297H27.8086V22.4883H24.6797V33H27.9492V27.7969C27.9492 26.4258 28.1953 25.125 29.8828 25.125C31.5703 25.125 31.6055 26.6719 31.6055 27.9023V33H34.8398Z"
+                  fill="white"
+                />
+              </svg>
+              <svg
+                width="55"
+                height="55"
+                viewBox="0 0 55 55"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect x="0.5" y="0.5" width="54" height="54" stroke="#FFCA42" />
+                <path
+                  d="M27.5 23.6074C25.125 23.6074 23.2324 25.5371 23.2324 27.875C23.2324 30.25 25.125 32.1426 27.5 32.1426C29.8379 32.1426 31.7676 30.25 31.7676 27.875C31.7676 25.5371 29.8379 23.6074 27.5 23.6074ZM27.5 30.6582C25.9785 30.6582 24.7168 29.4336 24.7168 27.875C24.7168 26.3535 25.9414 25.1289 27.5 25.1289C29.0215 25.1289 30.2461 26.3535 30.2461 27.875C30.2461 29.4336 29.0215 30.6582 27.5 30.6582ZM32.918 23.459C32.918 22.9023 32.4727 22.457 31.916 22.457C31.3594 22.457 30.9141 22.9023 30.9141 23.459C30.9141 24.0156 31.3594 24.4609 31.916 24.4609C32.4727 24.4609 32.918 24.0156 32.918 23.459ZM35.7383 24.4609C35.6641 23.125 35.3672 21.9375 34.4023 20.9727C33.4375 20.0078 32.25 19.7109 30.9141 19.6367C29.541 19.5625 25.4219 19.5625 24.0488 19.6367C22.7129 19.7109 21.5625 20.0078 20.5605 20.9727C19.5957 21.9375 19.2988 23.125 19.2246 24.4609C19.1504 25.834 19.1504 29.9531 19.2246 31.3262C19.2988 32.6621 19.5957 33.8125 20.5605 34.8145C21.5625 35.7793 22.7129 36.0762 24.0488 36.1504C25.4219 36.2246 29.541 36.2246 30.9141 36.1504C32.25 36.0762 33.4375 35.7793 34.4023 34.8145C35.3672 33.8125 35.6641 32.6621 35.7383 31.3262C35.8125 29.9531 35.8125 25.834 35.7383 24.4609ZM33.957 32.7734C33.6973 33.5156 33.1035 34.0723 32.3984 34.3691C31.2852 34.8145 28.6875 34.7031 27.5 34.7031C26.2754 34.7031 23.6777 34.8145 22.6016 34.3691C21.8594 34.0723 21.3027 33.5156 21.0059 32.7734C20.5605 31.6973 20.6719 29.0996 20.6719 27.875C20.6719 26.6875 20.5605 24.0898 21.0059 22.9766C21.3027 22.2715 21.8594 21.7148 22.6016 21.418C23.6777 20.9727 26.2754 21.084 27.5 21.084C28.6875 21.084 31.2852 20.9727 32.3984 21.418C33.1035 21.6777 33.6602 22.2715 33.957 22.9766C34.4023 24.0898 34.291 26.6875 34.291 27.875C34.291 29.0996 34.4023 31.6973 33.957 32.7734Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <div class="flex space-x-24">
+            <div>
+              <h1 class="text-white text-2xl font-serif mb-10">Explore</h1>
+              <div class="flex items-center space-x-5 mb-6">
+                <svg
+                  width="24"
+                  height="7"
+                  viewBox="0 0 24 7"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.0003 1.66683C13.0128 1.66683 13.8337 2.48764 13.8337 3.50016C13.8337 4.51268 13.0128 5.3335 12.0003 5.3335C10.9878 5.3335 10.167 4.51268 10.167 3.50016C10.167 2.48764 10.9878 1.66683 12.0003 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M21.1663 1.66683C22.1789 1.66683 22.9997 2.48764 22.9997 3.50016C22.9997 4.51268 22.1789 5.3335 21.1663 5.3335C20.1538 5.3335 19.333 4.51268 19.333 3.50016C19.333 2.48764 20.1538 1.66683 21.1663 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M2.83333 1.66683C3.84586 1.66683 4.66667 2.48764 4.66667 3.50016C4.66667 4.51268 3.84586 5.3335 2.83333 5.3335C1.82081 5.3335 1 4.51268 1 3.50016C1 2.48764 1.82081 1.66683 2.83333 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                </svg>
+                <p class="text-lg text-gray-400">Home</p>
+              </div>
+              <div class="flex items-center space-x-5 mb-6">
+                <svg
+                  width="24"
+                  height="7"
+                  viewBox="0 0 24 7"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.0003 1.66683C13.0128 1.66683 13.8337 2.48764 13.8337 3.50016C13.8337 4.51268 13.0128 5.3335 12.0003 5.3335C10.9878 5.3335 10.167 4.51268 10.167 3.50016C10.167 2.48764 10.9878 1.66683 12.0003 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M21.1663 1.66683C22.1789 1.66683 22.9997 2.48764 22.9997 3.50016C22.9997 4.51268 22.1789 5.3335 21.1663 5.3335C20.1538 5.3335 19.333 4.51268 19.333 3.50016C19.333 2.48764 20.1538 1.66683 21.1663 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M2.83333 1.66683C3.84586 1.66683 4.66667 2.48764 4.66667 3.50016C4.66667 4.51268 3.84586 5.3335 2.83333 5.3335C1.82081 5.3335 1 4.51268 1 3.50016C1 2.48764 1.82081 1.66683 2.83333 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                </svg>
+                <p class="text-lg text-gray-400">About Us</p>
+              </div>
+              <div class="flex items-center space-x-5 mb-6">
+                <svg
+                  width="24"
+                  height="7"
+                  viewBox="0 0 24 7"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.0003 1.66683C13.0128 1.66683 13.8337 2.48764 13.8337 3.50016C13.8337 4.51268 13.0128 5.3335 12.0003 5.3335C10.9878 5.3335 10.167 4.51268 10.167 3.50016C10.167 2.48764 10.9878 1.66683 12.0003 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M21.1663 1.66683C22.1789 1.66683 22.9997 2.48764 22.9997 3.50016C22.9997 4.51268 22.1789 5.3335 21.1663 5.3335C20.1538 5.3335 19.333 4.51268 19.333 3.50016C19.333 2.48764 20.1538 1.66683 21.1663 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M2.83333 1.66683C3.84586 1.66683 4.66667 2.48764 4.66667 3.50016C4.66667 4.51268 3.84586 5.3335 2.83333 5.3335C1.82081 5.3335 1 4.51268 1 3.50016C1 2.48764 1.82081 1.66683 2.83333 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                </svg>
+                <p class="text-lg text-gray-400">Services</p>
+              </div>
+              <div class="flex items-center space-x-5 mb-6">
+                <svg
+                  width="24"
+                  height="7"
+                  viewBox="0 0 24 7"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.0003 1.66683C13.0128 1.66683 13.8337 2.48764 13.8337 3.50016C13.8337 4.51268 13.0128 5.3335 12.0003 5.3335C10.9878 5.3335 10.167 4.51268 10.167 3.50016C10.167 2.48764 10.9878 1.66683 12.0003 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M21.1663 1.66683C22.1789 1.66683 22.9997 2.48764 22.9997 3.50016C22.9997 4.51268 22.1789 5.3335 21.1663 5.3335C20.1538 5.3335 19.333 4.51268 19.333 3.50016C19.333 2.48764 20.1538 1.66683 21.1663 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M2.83333 1.66683C3.84586 1.66683 4.66667 2.48764 4.66667 3.50016C4.66667 4.51268 3.84586 5.3335 2.83333 5.3335C1.82081 5.3335 1 4.51268 1 3.50016C1 2.48764 1.82081 1.66683 2.83333 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                </svg>
+                <p class="text-lg text-gray-400">Appointments</p>
+              </div>
+              <div class="flex items-center space-x-5 mb-6">
+                <svg
+                  width="24"
+                  height="7"
+                  viewBox="0 0 24 7"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.0003 1.66683C13.0128 1.66683 13.8337 2.48764 13.8337 3.50016C13.8337 4.51268 13.0128 5.3335 12.0003 5.3335C10.9878 5.3335 10.167 4.51268 10.167 3.50016C10.167 2.48764 10.9878 1.66683 12.0003 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M21.1663 1.66683C22.1789 1.66683 22.9997 2.48764 22.9997 3.50016C22.9997 4.51268 22.1789 5.3335 21.1663 5.3335C20.1538 5.3335 19.333 4.51268 19.333 3.50016C19.333 2.48764 20.1538 1.66683 21.1663 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M2.83333 1.66683C3.84586 1.66683 4.66667 2.48764 4.66667 3.50016C4.66667 4.51268 3.84586 5.3335 2.83333 5.3335C1.82081 5.3335 1 4.51268 1 3.50016C1 2.48764 1.82081 1.66683 2.83333 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                </svg>
+                <p class="text-lg text-gray-400">Blog</p>
+              </div>
+              <div class="flex items-center space-x-5 mb-6">
+                <svg
+                  width="24"
+                  height="7"
+                  viewBox="0 0 24 7"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.0003 1.66683C13.0128 1.66683 13.8337 2.48764 13.8337 3.50016C13.8337 4.51268 13.0128 5.3335 12.0003 5.3335C10.9878 5.3335 10.167 4.51268 10.167 3.50016C10.167 2.48764 10.9878 1.66683 12.0003 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M21.1663 1.66683C22.1789 1.66683 22.9997 2.48764 22.9997 3.50016C22.9997 4.51268 22.1789 5.3335 21.1663 5.3335C20.1538 5.3335 19.333 4.51268 19.333 3.50016C19.333 2.48764 20.1538 1.66683 21.1663 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M2.83333 1.66683C3.84586 1.66683 4.66667 2.48764 4.66667 3.50016C4.66667 4.51268 3.84586 5.3335 2.83333 5.3335C1.82081 5.3335 1 4.51268 1 3.50016C1 2.48764 1.82081 1.66683 2.83333 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                </svg>
+                <p class="text-lg text-gray-400">Contact Us</p>
+              </div>
+            </div>
+            <div>
+              <h1 class="text-white text-2xl font-serif mb-10">
+                Utility Pages
+              </h1>
+              <div class="flex items-center space-x-5 mb-6">
+                <svg
+                  width="24"
+                  height="7"
+                  viewBox="0 0 24 7"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.0003 1.66683C13.0128 1.66683 13.8337 2.48764 13.8337 3.50016C13.8337 4.51268 13.0128 5.3335 12.0003 5.3335C10.9878 5.3335 10.167 4.51268 10.167 3.50016C10.167 2.48764 10.9878 1.66683 12.0003 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M21.1663 1.66683C22.1789 1.66683 22.9997 2.48764 22.9997 3.50016C22.9997 4.51268 22.1789 5.3335 21.1663 5.3335C20.1538 5.3335 19.333 4.51268 19.333 3.50016C19.333 2.48764 20.1538 1.66683 21.1663 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M2.83333 1.66683C3.84586 1.66683 4.66667 2.48764 4.66667 3.50016C4.66667 4.51268 3.84586 5.3335 2.83333 5.3335C1.82081 5.3335 1 4.51268 1 3.50016C1 2.48764 1.82081 1.66683 2.83333 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                </svg>
+                <p class="text-lg text-gray-400">Start here</p>
+              </div>
+              <div class="flex items-center space-x-5 mb-6">
+                <svg
+                  width="24"
+                  height="7"
+                  viewBox="0 0 24 7"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.0003 1.66683C13.0128 1.66683 13.8337 2.48764 13.8337 3.50016C13.8337 4.51268 13.0128 5.3335 12.0003 5.3335C10.9878 5.3335 10.167 4.51268 10.167 3.50016C10.167 2.48764 10.9878 1.66683 12.0003 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M21.1663 1.66683C22.1789 1.66683 22.9997 2.48764 22.9997 3.50016C22.9997 4.51268 22.1789 5.3335 21.1663 5.3335C20.1538 5.3335 19.333 4.51268 19.333 3.50016C19.333 2.48764 20.1538 1.66683 21.1663 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M2.83333 1.66683C3.84586 1.66683 4.66667 2.48764 4.66667 3.50016C4.66667 4.51268 3.84586 5.3335 2.83333 5.3335C1.82081 5.3335 1 4.51268 1 3.50016C1 2.48764 1.82081 1.66683 2.83333 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                </svg>
+                <p class="text-lg text-gray-400">Style guide</p>
+              </div>
+              <div class="flex items-center space-x-5 mb-6">
+                <svg
+                  width="24"
+                  height="7"
+                  viewBox="0 0 24 7"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.0003 1.66683C13.0128 1.66683 13.8337 2.48764 13.8337 3.50016C13.8337 4.51268 13.0128 5.3335 12.0003 5.3335C10.9878 5.3335 10.167 4.51268 10.167 3.50016C10.167 2.48764 10.9878 1.66683 12.0003 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M21.1663 1.66683C22.1789 1.66683 22.9997 2.48764 22.9997 3.50016C22.9997 4.51268 22.1789 5.3335 21.1663 5.3335C20.1538 5.3335 19.333 4.51268 19.333 3.50016C19.333 2.48764 20.1538 1.66683 21.1663 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M2.83333 1.66683C3.84586 1.66683 4.66667 2.48764 4.66667 3.50016C4.66667 4.51268 3.84586 5.3335 2.83333 5.3335C1.82081 5.3335 1 4.51268 1 3.50016C1 2.48764 1.82081 1.66683 2.83333 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                </svg>
+                <p class="text-lg text-gray-400">404 not found</p>
+              </div>
+              <div class="flex items-center space-x-5 mb-6">
+                <svg
+                  width="24"
+                  height="7"
+                  viewBox="0 0 24 7"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.0003 1.66683C13.0128 1.66683 13.8337 2.48764 13.8337 3.50016C13.8337 4.51268 13.0128 5.3335 12.0003 5.3335C10.9878 5.3335 10.167 4.51268 10.167 3.50016C10.167 2.48764 10.9878 1.66683 12.0003 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M21.1663 1.66683C22.1789 1.66683 22.9997 2.48764 22.9997 3.50016C22.9997 4.51268 22.1789 5.3335 21.1663 5.3335C20.1538 5.3335 19.333 4.51268 19.333 3.50016C19.333 2.48764 20.1538 1.66683 21.1663 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M2.83333 1.66683C3.84586 1.66683 4.66667 2.48764 4.66667 3.50016C4.66667 4.51268 3.84586 5.3335 2.83333 5.3335C1.82081 5.3335 1 4.51268 1 3.50016C1 2.48764 1.82081 1.66683 2.83333 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                </svg>
+                <p class="text-lg text-gray-400">Password protected</p>
+              </div>
+              <div class="flex items-center space-x-5 mb-6">
+                <svg
+                  width="24"
+                  height="7"
+                  viewBox="0 0 24 7"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.0003 1.66683C13.0128 1.66683 13.8337 2.48764 13.8337 3.50016C13.8337 4.51268 13.0128 5.3335 12.0003 5.3335C10.9878 5.3335 10.167 4.51268 10.167 3.50016C10.167 2.48764 10.9878 1.66683 12.0003 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M21.1663 1.66683C22.1789 1.66683 22.9997 2.48764 22.9997 3.50016C22.9997 4.51268 22.1789 5.3335 21.1663 5.3335C20.1538 5.3335 19.333 4.51268 19.333 3.50016C19.333 2.48764 20.1538 1.66683 21.1663 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M2.83333 1.66683C3.84586 1.66683 4.66667 2.48764 4.66667 3.50016C4.66667 4.51268 3.84586 5.3335 2.83333 5.3335C1.82081 5.3335 1 4.51268 1 3.50016C1 2.48764 1.82081 1.66683 2.83333 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                </svg>
+                <p class="text-lg text-gray-400">Licenses</p>
+              </div>
+              <div class="flex items-center space-x-5 mb-6">
+                <svg
+                  width="24"
+                  height="7"
+                  viewBox="0 0 24 7"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.0003 1.66683C13.0128 1.66683 13.8337 2.48764 13.8337 3.50016C13.8337 4.51268 13.0128 5.3335 12.0003 5.3335C10.9878 5.3335 10.167 4.51268 10.167 3.50016C10.167 2.48764 10.9878 1.66683 12.0003 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M21.1663 1.66683C22.1789 1.66683 22.9997 2.48764 22.9997 3.50016C22.9997 4.51268 22.1789 5.3335 21.1663 5.3335C20.1538 5.3335 19.333 4.51268 19.333 3.50016C19.333 2.48764 20.1538 1.66683 21.1663 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M2.83333 1.66683C3.84586 1.66683 4.66667 2.48764 4.66667 3.50016C4.66667 4.51268 3.84586 5.3335 2.83333 5.3335C1.82081 5.3335 1 4.51268 1 3.50016C1 2.48764 1.82081 1.66683 2.83333 1.66683Z"
+                    stroke="#FFCA42"
+                    stroke-width="1.5"
+                  />
+                </svg>
+                <p class="text-lg text-gray-400">Changelog</p>
+              </div>
+            </div>
+            <div>
+              <h1 class="text-white text-2xl font-serif mb-10">
+                Keep in touch
+              </h1>
+              <div class="max-w-xs grid grid-cols-3 grid-rows-3 gap-y-4">
+                <h3
+                  class="text-lg text-white font-serif row-start-1 row-end-2 col-start-1 col-end-2"
+                >
+                  Address :
+                </h3>
+                <h3
+                  class="text-lg text-white font-serif row-start-2 row-end-3 col-start-1 col-end-2"
+                >
+                  Mail :
+                </h3>
+                <h3
+                  class="text-lg text-white font-serif row-start-3 row-end-4 col-start-1 col-end-2"
+                >
+                  Phone :
+                </h3>
+                <p class="text-gray-400 text-lg col-start-2 col-end-4">
+                  24A Kingston St, Los Vegas NC 28202, USA.
+                </p>
+                <p class="text-gray-400 text-lg col-start-2 col-end-4">
+                  support@doctors.com
+                </p>
+                <p class="text-gray-400 text-lg col-start-2 col-end-4">
+                  (+22) 123 - 4567 - 900
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="py-5 opacity-20" />
+        <div class="flex items-center justify-center pb-6">
+          <svg
+            width="15"
+            height="15"
+            viewBox="0 0 15 15"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.615723 7.29248C0.615723 6.64307 0.699219 6.01839 0.866211 5.41846C1.0332 4.81852 1.27132 4.2557 1.58057 3.72998C1.88981 3.20426 2.25781 2.72803 2.68457 2.30127C3.11133 1.87451 3.58757 1.50651 4.11328 1.19727C4.639 0.888021 5.20182 0.649902 5.80176 0.48291C6.40169 0.315918 7.02637 0.232422 7.67578 0.232422C8.3252 0.232422 8.94987 0.315918 9.5498 0.48291C10.1497 0.649902 10.7126 0.888021 11.2383 1.19727C11.764 1.50651 12.2402 1.87451 12.667 2.30127C13.0938 2.72803 13.4618 3.20426 13.771 3.72998C14.0802 4.2557 14.3184 4.81852 14.4854 5.41846C14.6523 6.01839 14.7358 6.64307 14.7358 7.29248C14.7358 7.94189 14.6523 8.56657 14.4854 9.1665C14.3184 9.76644 14.0802 10.3293 13.771 10.855C13.4618 11.3807 13.0938 11.8569 12.667 12.2837C12.2402 12.7104 11.764 13.0785 11.2383 13.3877C10.7126 13.6969 10.1497 13.9351 9.5498 14.1021C8.94987 14.269 8.3252 14.3525 7.67578 14.3525C7.02637 14.3525 6.40169 14.269 5.80176 14.1021C5.20182 13.9351 4.639 13.6969 4.11328 13.3877C3.58757 13.0785 3.11133 12.7104 2.68457 12.2837C2.25781 11.8569 1.88981 11.3807 1.58057 10.855C1.27132 10.3293 1.0332 9.76644 0.866211 9.1665C0.699219 8.56657 0.615723 7.94189 0.615723 7.29248ZM1.87744 7.29248C1.87744 7.82438 1.94548 8.33773 2.08154 8.83252C2.2238 9.32731 2.41862 9.79118 2.66602 10.2241C2.9196 10.6509 3.22266 11.0405 3.5752 11.3931C3.92773 11.7456 4.31738 12.0487 4.74414 12.3022C5.17708 12.5496 5.64095 12.7445 6.13574 12.8867C6.63053 13.0228 7.14388 13.0908 7.67578 13.0908C8.20768 13.0908 8.72103 13.0228 9.21582 12.8867C9.71061 12.7445 10.1714 12.5496 10.5981 12.3022C11.0311 12.0487 11.4238 11.7456 11.7764 11.3931C12.1289 11.0405 12.4289 10.6509 12.6763 10.2241C12.9299 9.79118 13.1247 9.32731 13.2607 8.83252C13.403 8.33773 13.4741 7.82438 13.4741 7.29248C13.4741 6.76058 13.403 6.24723 13.2607 5.75244C13.1247 5.25765 12.9299 4.79688 12.6763 4.37012C12.4289 3.93717 12.1289 3.54443 11.7764 3.19189C11.4238 2.83936 11.0311 2.53939 10.5981 2.29199C10.1714 2.03841 9.71061 1.84359 9.21582 1.70752C8.72103 1.56527 8.20768 1.49414 7.67578 1.49414C7.14388 1.49414 6.63053 1.56527 6.13574 1.70752C5.64095 1.84359 5.17708 2.03841 4.74414 2.29199C4.31738 2.53939 3.92773 2.83936 3.5752 3.19189C3.22266 3.54443 2.9196 3.93717 2.66602 4.37012C2.41862 4.79688 2.2238 5.25765 2.08154 5.75244C1.94548 6.24723 1.87744 6.76058 1.87744 7.29248ZM3.19482 7.40381C3.19482 6.95231 3.2474 6.52865 3.35254 6.13281C3.45768 5.73079 3.60303 5.36279 3.78857 5.02881C3.98031 4.68864 4.20915 4.38558 4.4751 4.11963C4.74105 3.84749 5.03483 3.61865 5.35645 3.43311C5.68424 3.24137 6.03369 3.09603 6.40479 2.99707C6.77588 2.89811 7.16243 2.84863 7.56445 2.84863C7.91081 2.84863 8.2417 2.88265 8.55713 2.95068C8.87256 3.01253 9.20036 3.08675 9.54053 3.17334C9.59619 3.19189 9.65495 3.21354 9.7168 3.23828C9.77865 3.26302 9.83431 3.28776 9.88379 3.3125C9.93945 3.33105 9.98893 3.34961 10.0322 3.36816C10.0755 3.38053 10.1095 3.38672 10.1343 3.38672C10.1405 3.38672 10.1652 3.38053 10.2085 3.36816C10.2518 3.34961 10.2827 3.34033 10.3013 3.34033H10.561C10.6043 3.34033 10.626 3.37435 10.626 3.44238V5.40918C10.626 5.43392 10.6167 5.45247 10.5981 5.46484C10.5796 5.47103 10.5425 5.47412 10.4868 5.47412C10.4806 5.47412 10.4528 5.47412 10.4033 5.47412C10.36 5.46794 10.3322 5.45557 10.3198 5.43701C10.3136 5.42464 10.2982 5.3999 10.2734 5.36279C10.2549 5.32568 10.2332 5.28857 10.2085 5.25146C10.1838 5.21436 10.1621 5.18034 10.1436 5.14941C10.125 5.1123 10.1126 5.08757 10.1064 5.0752C9.96419 4.77214 9.80957 4.51855 9.64258 4.31445C9.47559 4.10417 9.29004 3.93408 9.08594 3.8042C8.88802 3.67432 8.66846 3.58154 8.42725 3.52588C8.19222 3.46403 7.93555 3.43311 7.65723 3.43311C7.30469 3.43311 6.99235 3.47949 6.72021 3.57227C6.44808 3.65885 6.20996 3.78255 6.00586 3.94336C5.80176 4.10417 5.62858 4.29899 5.48633 4.52783C5.35026 4.75049 5.23893 4.99479 5.15234 5.26074C5.06576 5.52669 5.00081 5.81429 4.95752 6.12354C4.92041 6.4266 4.90186 6.73893 4.90186 7.06055C4.90186 7.40072 4.9235 7.73779 4.9668 8.07178C5.01628 8.40576 5.09049 8.72738 5.18945 9.03662C5.28841 9.33968 5.4152 9.62109 5.56982 9.88086C5.73063 10.1406 5.92236 10.3664 6.14502 10.5581C6.36768 10.7437 6.62744 10.8921 6.92432 11.0034C7.22119 11.1147 7.55518 11.1704 7.92627 11.1704C8.2417 11.1704 8.53548 11.1178 8.80762 11.0127C9.08594 10.9076 9.33643 10.7684 9.55908 10.5952C9.78792 10.422 9.98893 10.221 10.1621 9.99219C10.3415 9.76335 10.493 9.52523 10.6167 9.27783C10.6229 9.25928 10.6291 9.25 10.6353 9.25C10.6476 9.24382 10.6631 9.24072 10.6816 9.24072H10.9692C10.9816 9.24072 10.994 9.24691 11.0063 9.25928C11.0187 9.26546 11.0249 9.28402 11.0249 9.31494C11.0249 9.32731 11.0156 9.36133 10.9971 9.41699C10.9847 9.46647 10.9692 9.50977 10.9507 9.54688L10.1807 11.3745C10.1745 11.3869 10.1621 11.3993 10.1436 11.4116C10.1312 11.4178 10.1188 11.4209 10.1064 11.4209C10.0199 11.4209 9.95801 11.4147 9.9209 11.4023C9.88379 11.3838 9.84668 11.3745 9.80957 11.3745C9.69824 11.3745 9.5498 11.3962 9.36426 11.4395C9.1849 11.4766 8.98698 11.5199 8.77051 11.5693C8.56022 11.6188 8.34684 11.6652 8.13037 11.7085C7.9139 11.7518 7.71908 11.7734 7.5459 11.7734C7.15625 11.7734 6.77588 11.7271 6.40479 11.6343C6.03988 11.5415 5.69661 11.4085 5.375 11.2354C5.05339 11.056 4.7596 10.8395 4.49365 10.5859C4.2277 10.3262 3.99577 10.0355 3.79785 9.71387C3.60612 9.39225 3.45768 9.03971 3.35254 8.65625C3.2474 8.2666 3.19482 7.84912 3.19482 7.40381Z"
+              fill="#B4C7E7"
+            />
+          </svg>
+          <p class="ml-2 text-lg text-gray-400">Drafted by <span class="text-white">Victorflow</span> - Powered by <spanclass="text-white">Webflow</span></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
